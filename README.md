@@ -1,34 +1,19 @@
-# 03. Episódios favoritos
+Episódios favoritos
 
-**Rascunho assistido para estudo.** Revise, execute e explique o código antes de usar em atividade acadêmica. Este exemplo não declara autoria independente do estudante. A publicação do código não equivale à entrega da atividade acadêmica.
+Lista de quatro episódios da primeira temporada de The Mandalorian. Um dos itens aparece como favorito, com destaque no texto, na borda e na cor. O estilo usa classes e o seletor nth-child.
 
-## Executar
-Abra `index.html` no navegador, mantendo os arquivos desta pasta juntos. Funciona offline; não exige instalação, servidor, dependências ou conta.
+Como abrir
 
-## Requisitos cobertos
-- Lista ordenada (`ol`) de quatro episódios
-- Favorito destacado por classe, borda, texto e cor
-- Itens também diferenciados com `:nth-child`
+Abra index.html no navegador e mantenha os arquivos da pasta juntos. Não é preciso instalar dependências ou iniciar um servidor.
 
-## O que observar no código
-- A classe `.favorite` marca a escolha editorial
-- `:nth-child(odd)` estiliza itens em posições ímpares
-- A indicação textual não depende apenas de cor
+O que testar
 
-## Testes manuais
-1. Confira quatro episódios e um único favorito
-2. Localize a classe `favorite` e mova-a para outro `li`; mova também o selo textual
-3. Verifique que a versão original não exige JavaScript
+Confira os quatro episódios e o destaque do segundo item. A página funciona sem JavaScript.
 
-## Alteração sugerida para aprender
-Personalize nomes, cores e conteúdo; explique em suas palavras a função de cada elemento, seletor e evento usado. Teste novamente depois de alterar.
+Verificação
 
-## Créditos e limites
-Os exercícios 1 e 3 usam referências a obras existentes: Link (Nintendo) e The Mandalorian (Star Wars). Link e The Legend of Zelda pertencem à Nintendo; Star Wars e The Mandalorian pertencem à Lucasfilm/Disney. A representação SVG de Link foi desenhada para o exemplo e não é arte oficial. As demais artes e personagens Aurora são originais. Não há dados pessoais, rastreamento ou carregamento externo; links de referência só abrem quando clicados. Menções no quiz não usam imagens ou logos de franquias.
+Os testes de lógica do conjunto dos nove exercícios passaram nas 68 verificações em DOM simulado. A sintaxe dos seis arquivos JavaScript também passou. A aparência das páginas e os comportamentos nativos de teclado, foco e janelas ainda precisam ser conferidos em um navegador real, pois o ambiente de teste não conseguiu abri-las.
 
-## Referência dos episódios
-StarWars.com, “We’re Rewatching The Mandalorian Season 1!”: https://www.starwars.com/news/the-mandalorian-season-1-rewatch
-Os quatro títulos permanecem em inglês conforme a fonte oficial. O destaque favorito é demonstrativo e não registra uma preferência pessoal do estudante.
+Créditos
 
-## Estado da verificação
-Em 02/10/2026, o conjunto dos nove exercícios passou por 68 verificações de lógica em DOM simulado, verificações de sintaxe dos seis scripts e de estrutura e referências locais. Testes visuais e comportamentos nativos de navegador ainda não foram concluídos: o navegador de teste não iniciou e a prévia local não abriu. Os testes automatizados não substituem os testes manuais acima.
+Star Wars e The Mandalorian pertencem à Lucasfilm/Disney. Os títulos dos episódios foram mantidos em inglês.
